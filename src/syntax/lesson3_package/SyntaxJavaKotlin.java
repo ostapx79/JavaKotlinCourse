@@ -1,4 +1,4 @@
-package syntax;
+package syntax.lesson3_package;
 
 public class SyntaxJavaKotlin {
     public static void main(String[] args) {
