@@ -1,4 +1,4 @@
-package commentsLesson;
+package syntax.lesson2_comments;
 
 /**
  * Документирующие комментарии
