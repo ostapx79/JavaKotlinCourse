@@ -12,7 +12,7 @@
 ### 10. Строки [Java Kotlin с нуля]
 ### 11. Переменные (var) и константы (val) в Kotlin [Java Kotlin с нуля]
 ### 12. Строковые шаблоны(String templates) [Java Kotlin с нуля]
-### 13. Null d Java и Kotlin [Java Kotlin с нуля]
+### 13. Null в Java и Kotlin [Java Kotlin с нуля]
 ### 14. Scanner [Java Kotlin с нуля]
 ### 15. Форматированный вывод: Printf [Java Kotlin с нуля]
 ### 16. Условные конструкции if [Java Kotlin с нуля]
