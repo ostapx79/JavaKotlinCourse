@@ -10,4 +10,5 @@ fun main() {
     val age = scanner.nextInt()
 
     println("Hello, my name is $name! I'm a $age years old.")
+    scanner.close()
 }
