@@ -1,4 +1,4 @@
-package syntax.lesson_unit_in_kontlin_fun
+package syntax.lesson20_unit_in_kotlin_fun
 
 fun main() {
 
