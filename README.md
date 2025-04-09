@@ -27,3 +27,6 @@
 
 ## module 2 - Collections in Java/Kotlin
 ### 24 Array- Массивы [Java Kotlin с нуля]
+
+## module 3 - OOP in Java/Kotlin
+### 25 Классы в Java/Kotlin [Java Kotlin с нуля]
