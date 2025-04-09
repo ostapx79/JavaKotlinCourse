@@ -24,7 +24,6 @@
 ### 21. Урок - Промежуточная практика [Java Kotlin с нуля]
 ### 22. Урок - Операторы "switch" и "when" [Java Kotlin с нуля]
 ### 23 Классы для работы с большими числами: BigDecimal, BigInteger [Java Kotlin с нуля]
-### 24 Array- Массивы [Java Kotlin с нуля]
 
 ## module 2 - Collections in Java/Kotlin
 ### 24 Array- Массивы [Java Kotlin с нуля]
