@@ -1,0 +1,21 @@
+package mod3_oop.lesson27_encapsulation
+
+import java.text.SimpleDateFormat
+import java.util.Date
+
+class PersonKt(var name: String, var age: Int) {
+
+    constructor() : this("", 0)
+
+    constructor(name: String) : this(name, 0) { this.name = name }
+
+    private var birth: Date = Date()
+        get() = SimpleDateFormat("yyyy.MM.dd").parse(SimpleDateFormat("yyyy.MM.dd").format(field))
+        set(value) {
+            field = value
+        }
+
+    fun sayHello(): Unit {
+        println("Hello, my name is ${this.name}.")
+    }
+}
