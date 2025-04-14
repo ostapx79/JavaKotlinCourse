@@ -32,3 +32,4 @@
 ### 25 Классы в Java/Kotlin [Java Kotlin с нуля]
 ### 26 Конструкторы классов [Java Kotlin с нуля]
 ### 27 Инкапсуляция в объектно-ориентированном программировании [Java Kotlin с нуля]
+### 28 static-поля и companion object [Java Kotlin с нуля]
