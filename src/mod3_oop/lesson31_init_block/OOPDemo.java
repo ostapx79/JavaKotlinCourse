@@ -1,8 +1,5 @@
 package mod3_oop.lesson31_init_block;
 
-import mod3_oop.lesson30_this_for_calling_other_constructor.Person;
-import mod3_oop.lesson30_this_for_calling_other_constructor.PersonKt;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 
