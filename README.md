@@ -35,3 +35,4 @@
 ### 28 static-поля и companion object [Java Kotlin с нуля]
 ### 29 Фабричные методы [Java Kotlin с нуля]
 ### 30 "this" для вызова другого конструктора [Java Kotlin с нуля]
+### 31 Блоки инициализации [Java Kotlin с нуля]
