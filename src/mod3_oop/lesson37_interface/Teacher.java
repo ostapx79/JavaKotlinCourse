@@ -1,6 +1,6 @@
 package mod3_oop.lesson37_interface;
 
-public class Teacher extends Person {
+public class Teacher extends Person implements Greeting {
     private String computerScienceTeacher;
 
     public Teacher() {
