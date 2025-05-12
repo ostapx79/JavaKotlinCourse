@@ -44,3 +44,4 @@
 ### 37 Интерфейсы [Java Kotlin с нуля]
 ### 38 Функциональный интерфейс [Java Kotlin с нуля]
 ### 39 Enum- классы [Java Kotlin с нуля]
+### 40 sealed-классы [Java Kotlin с нуля]
