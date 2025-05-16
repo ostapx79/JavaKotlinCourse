@@ -43,6 +43,7 @@
 ### 36 Методы космических классов Object, Any [Java Kotlin с нуля]
 ### 37 Интерфейсы [Java Kotlin с нуля]
 ### 38 Функциональный интерфейс [Java Kotlin с нуля]
-### 39 Enum- классы [Java Kotlin с нуля]
+### 39 Enum-классы [Java Kotlin с нуля]
 ### 40 sealed-классы [Java Kotlin с нуля]
 ### 41 Внутренние классы [Java Kotlin с нуля]
+### 42 Comparable-interface [Java Kotlin с нуля]
