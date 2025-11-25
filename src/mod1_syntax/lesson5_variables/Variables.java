@@ -25,7 +25,7 @@ public class Variables {
 
         System.out.println(Double.NEGATIVE_INFINITY);
         System.out.println(Double.POSITIVE_INFINITY);
-        System.out.println(Double.isNaN(0.0/0.0));
+        System.out.println(Double.isNaN(0.0 / 0.0));
 
         char charSymbol = 'A';
         System.out.println("The char symbol: " + charSymbol);
