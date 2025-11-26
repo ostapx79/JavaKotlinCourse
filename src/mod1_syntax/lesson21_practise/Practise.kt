@@ -7,27 +7,30 @@ fun main() {
 }
 
 fun getWinner(
-    gryffindorPoint:Int,
-    slytherinPoints:Int,
-    ravenclawPoints:Int,
-    hufflepuffPoints:Int
+    gryffindorPoint: Int,
+    slytherinPoints: Int,
+    ravenclawPoints: Int,
+    hufflepuffPoints: Int
 ): String {
     return if (
         gryffindorPoint > slytherinPoints
         && gryffindorPoint > ravenclawPoints
-        && gryffindorPoint > hufflepuffPoints) {
+        && gryffindorPoint > hufflepuffPoints
+    ) {
         "Gryffindor"
     } else if (
         slytherinPoints > ravenclawPoints
         && slytherinPoints > hufflepuffPoints
-        && slytherinPoints > gryffindorPoint) {
+        && slytherinPoints > gryffindorPoint
+    ) {
         "Slytherin"
     } else if (
         ravenclawPoints > gryffindorPoint
         && ravenclawPoints > slytherinPoints
-        && ravenclawPoints > hufflepuffPoints) {
+        && ravenclawPoints > hufflepuffPoints
+    ) {
         "Ravenclaw"
     } else {
-       "Hufflepuff"
+        "Hufflepuff"
     }
 }
