@@ -7,8 +7,8 @@ public class DoWhileDemo {
 
         var count = 0;
 
+        Scanner scanner = new Scanner(System.in);
         do {
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter your age: ");
             int age = scanner.nextInt();
 
@@ -24,6 +24,6 @@ public class DoWhileDemo {
 
         System.out.println("Exit from while-cycle");
 
-//        scanner.close();
+        scanner.close();
     }
 }
