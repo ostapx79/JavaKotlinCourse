@@ -19,10 +19,10 @@ fun main() {
 
 }
 
-fun getSumOfNumbers(number:Int = 1): Long {
+fun getSumOfNumbers(number: Int = 1): Long {
     var count = 0
     var sum = 0L
-    while(count <= number) {
+    while (count <= number) {
         sum += count
         count++
     }
@@ -31,7 +31,7 @@ fun getSumOfNumbers(number:Int = 1): Long {
 
 fun getSumNum(number: Int): Long {
     var sum = 0L
-    for(i in 0..number) {
+    for (i in 0..number) {
         sum += i
     }
     return sum
