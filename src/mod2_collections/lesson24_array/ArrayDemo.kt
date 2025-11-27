@@ -15,7 +15,7 @@ fun main() {
     arrNums1[9] = 10
     println("The size of arrNumbs1 is ${arrNums1.size}.")
 
-    for(num in arrNums1) {
+    for (num in arrNums1) {
         print("$num ")
     }
 }
