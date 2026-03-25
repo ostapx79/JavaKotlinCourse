@@ -47,3 +47,4 @@
 ### 40 sealed-классы [Java Kotlin с нуля]
 ### 41 Внутренние классы [Java Kotlin с нуля]
 ### 42 Comparable-interface [Java Kotlin с нуля]
+### 43 Comparator-interface [Java Kotlin с нуля]
