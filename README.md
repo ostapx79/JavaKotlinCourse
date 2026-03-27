@@ -48,3 +48,4 @@
 ### 41 Внутренние классы [Java Kotlin с нуля]
 ### 42 Comparable-interface [Java Kotlin с нуля]
 ### 43 Comparator-interface [Java Kotlin с нуля]
+### 44 Generics [Java Kotlin с нуля]
