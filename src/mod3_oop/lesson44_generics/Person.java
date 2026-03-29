@@ -17,8 +17,6 @@ public class Person<T> {
     public Person() {
     }
 
-    ;
-
     public Person(String name) {
         this();
         this.name = name;

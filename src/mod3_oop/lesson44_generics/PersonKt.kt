@@ -13,6 +13,7 @@ data class PersonKt<T>(
     constructor(name: String) : this(name, 0, null) {
         this.name = name
     }
+
     constructor(name: String, id: T) : this(name, 0, null) {
         this.name = name
         this.id = id
