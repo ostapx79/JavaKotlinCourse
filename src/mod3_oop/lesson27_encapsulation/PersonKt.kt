@@ -10,7 +10,8 @@ class PersonKt(var name: String, var age: Int) {
     constructor(name: String) : this(name, 0) { this.name = name }
 
     var birth: Date = Date()
-        get() = SimpleDateFormat("yyyy.MM.dd").parse(SimpleDateFormat("yyyy.MM.dd").format(field))
+        get() = SimpleDateFormat("yyyy.MM.dd")
+            .parse(SimpleDateFormat("yyyy.MM.dd").format(field))
         set(value) {
             field = value
         }
