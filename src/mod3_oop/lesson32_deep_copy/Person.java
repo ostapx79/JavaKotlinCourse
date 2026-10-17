@@ -6,13 +6,16 @@ public class Person {
 
     private static final String KIND = "HUMAN";
 
-    public static String getKIND() { return KIND; }
+    public static String getKIND() {
+        return KIND;
+    }
 
     static {
         System.out.println("The new object of java class Person is created!");
     }
 
-    public Person() {}
+    public Person() {
+    }
 
     public Person(String name) {
         this();
