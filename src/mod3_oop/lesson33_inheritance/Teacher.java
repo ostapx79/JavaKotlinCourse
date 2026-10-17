@@ -33,19 +33,19 @@ public class Teacher extends Person {
         System.out.println("Hello, my name is " + name + ". I'm a teacher.");
     }
 
-    public static TeacherKt getInstance(String name) {
-        return new TeacherKt(name);
+    public static Teacher getInstance(String name) {
+        return new Teacher(name);
     }
 
-    public static TeacherKt getInstance(String name, int age) {
-        return new TeacherKt(name, age);
+    public static Teacher getInstance(String name, int age) {
+        return new Teacher(name, age);
     }
 
-    public static TeacherKt getInstance(String name, int age, String computerScienceTeacher) {
-        return new TeacherKt(name, age, computerScienceTeacher);
+    public static Teacher getInstance(String name, int age, String computerScienceTeacher) {
+        return new Teacher(name, age, computerScienceTeacher);
     }
 
-    public static TeacherKt getInstance(TeacherKt other) {
-        return new TeacherKt(other.getName(), other.getAge());
+    public static Teacher getInstance(Teacher other) {
+        return new Teacher(other.getName(), other.getAge());
     }
 }

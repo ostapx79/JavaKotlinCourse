@@ -1,6 +1,6 @@
 package mod3_oop.lesson33_inheritance;
 
-public class Student extends Person{
+public class Student extends Person {
 
     private int course;
 
