@@ -24,7 +24,7 @@ class StudentKt : PersonKt, GreetingKt {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is StudentKt) return false
-        return name === other.name
+        return name == other.name
                 && age == other.age
                 && course == other.course
     }
