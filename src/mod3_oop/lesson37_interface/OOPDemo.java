@@ -8,7 +8,7 @@ public class OOPDemo {
 
         System.out.println(kostya.toString());
         System.out.println(kostya.equals(ivan));
-        System.out.println(kostya.hashCode());;
+        System.out.println(kostya.hashCode());
         System.out.println(ivan.hashCode());
 
         System.out.println(kostya);

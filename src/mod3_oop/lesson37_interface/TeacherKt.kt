@@ -1,12 +1,12 @@
 package mod3_oop.lesson37_interface
 
-class TeacherKt : Person, Greeting {
-    var subject : String = ""
+class TeacherKt : PersonKt, GreetingKt {
+    var subject: String = ""
 
     constructor() {}
-    constructor(name : String) : super(name)
-    constructor(name : String, age : Int) : super(name, age)
-    constructor(name : String, age : Int, subject : String) : super(name, age) {
+    constructor(name: String) : super(name)
+    constructor(name: String, age: Int) : super(name, age)
+    constructor(name: String, age: Int, subject: String) : super(name, age) {
         this.subject = subject
     }
 

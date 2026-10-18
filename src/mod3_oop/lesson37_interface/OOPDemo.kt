@@ -1,9 +1,9 @@
 package mod3_oop.lesson37_interface
 
 fun main() {
-    var harry = StudentKt("Harry Potter", 17, 4)
-    var kostya = StudentKt("Kostya Galus", 46, 3)
-    var kostya2 = StudentKt("Kostya Galus", 46, 3)
+    val harry = StudentKt("Harry Potter", 17, 4)
+    val kostya = StudentKt("Kostya Galus", 46, 3)
+    val kostya2 = StudentKt("Kostya Galus", 46, 3)
 
     println(harry)
     println(kostya)
