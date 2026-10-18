@@ -1,12 +1,12 @@
 package mod3_oop.lesson35_abstract
 
-class TeacherKt : Person {
-    var subject : String = ""
+class TeacherKt : PersonKt {
+    var subject: String = ""
 
     constructor() {}
-    constructor(name : String) : super(name)
-    constructor(name : String, age : Int) : super(name, age)
-    constructor(name : String, age : Int, subject : String) : super(name, age) {
+    constructor(name: String) : super(name)
+    constructor(name: String, age: Int) : super(name, age)
+    constructor(name: String, age: Int, subject: String) : super(name, age) {
         this.subject = subject
     }
 

@@ -1,7 +1,7 @@
 package mod3_oop.lesson35_abstract
 
 fun main() {
-    var harry = StudentKt("Harry Potter", 17, 4)
+    val harry = StudentKt("Harry Potter", 17, 4)
 
     var kostya:PersonKt = StudentKt("Kostya Galus")
 //    harry = kostya as StudentKt
@@ -12,6 +12,4 @@ fun main() {
     println("kostya is PersonKt: ${kostya is PersonKt}")
 
     harry.sayHello()
-
-
 }

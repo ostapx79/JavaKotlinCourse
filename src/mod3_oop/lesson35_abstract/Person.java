@@ -6,9 +6,12 @@ public abstract class Person {
 
     private static final String KIND = "HUMAN";
 
-    public static String getKIND() { return KIND; }
+    public static String getKIND() {
+        return KIND;
+    }
 
-    public Person() {}
+    public Person() {
+    }
 
     public Person(String name) {
         this();
@@ -37,22 +40,4 @@ public abstract class Person {
     }
 
     public abstract void sayHello();
-
-
-    // фабричные методы
-//    public static Person getInstance() {
-//        return new Person();
-//    }
-//
-//    public static Person getInstance(String name) {
-//        return new Person(name);
-//    }
-//
-//    public static Person getInstance(String name, int age) {
-//        return new Person(name, age);
-//    }
-//
-//    public static Person getInstance(Person other) {
-//        return new Person(other.getName(), other.getAge());
-//    }
 }
