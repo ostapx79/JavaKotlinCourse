@@ -4,12 +4,12 @@ import java.util.Objects
 
 class StudentKt : PersonKt {
 
-    var course : Int = 0
+    var course: Int = 0
 
     constructor() : super()
-    constructor(name : String) : super(name)
-    constructor(name : String, age : Int) : super(name, age)
-    constructor(name : String, age : Int, course : Int) : super(name, age) {
+    constructor(name: String) : super(name)
+    constructor(name: String, age: Int) : super(name, age)
+    constructor(name: String, age: Int, course: Int) : super(name, age) {
         this.course = course
     }
 
@@ -24,7 +24,7 @@ class StudentKt : PersonKt {
     override fun equals(other: Any?): Boolean {
         if (this === other) return true
         if (other !is StudentKt) return false
-        return name === other.name
+        return name == other.name
                 && age == other.age
                 && course == other.course
     }
@@ -36,8 +36,8 @@ class StudentKt : PersonKt {
     companion object {
         const val KIND = PersonKt.KIND
         fun getInstance() = StudentKt()
-        fun getInstance(name : String) = StudentKt(name)
-        fun getInstance(name : String, age : Int) = StudentKt(name, age)
+        fun getInstance(name: String) = StudentKt(name)
+        fun getInstance(name: String, age: Int) = StudentKt(name, age)
         fun getInstance(other: StudentKt) = StudentKt(other.name, other.age)
     }
 }
