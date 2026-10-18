@@ -3,7 +3,7 @@ package mod3_oop.lesson39_enum_class
 enum class DayOfWeekKt (
     val russianDayOfWeekKt: String
 ) {
-    MONDAY("Понидельник"),
+    MONDAY("Понедельник"),
     TUESDAY("Вторник"),
     WEDNESDAY("Среда"),
     THURSDAY("Четверг"),

@@ -16,5 +16,5 @@ fun main() {
         else -> println("Working day of the week is $day.")
     }
 
-    println("The ${DayOfWeekKt.MONDAY} on russian day is ${DayOfWeekKt.MONDAY.russianDayOfWeekKt}. ")
+    println("The ${DayOfWeekKt.MONDAY} on Russian day is ${DayOfWeekKt.MONDAY.russianDayOfWeekKt}.")
 }

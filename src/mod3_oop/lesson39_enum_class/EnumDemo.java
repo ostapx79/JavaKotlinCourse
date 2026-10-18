@@ -14,6 +14,6 @@ public class EnumDemo {
             System.out.println("Working day of the week is " + day + ".");
         }
 
-        System.out.println(FRIDAY + " on russian language is " + FRIDAY.getRussianTranslate());
+        System.out.println(FRIDAY + " on Russian language is " + FRIDAY.getRussianTranslate());
     }
 }
