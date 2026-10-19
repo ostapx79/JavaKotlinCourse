@@ -2,6 +2,7 @@ package mod3_oop.lesson41_inner_class;
 
 public class Husband {
     private int familyBudget = 100;
+
     public void earnMoney() {
         familyBudget += 10;
     }

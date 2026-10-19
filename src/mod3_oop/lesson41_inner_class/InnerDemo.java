@@ -11,7 +11,6 @@ public class InnerDemo {
         innerClass.innerMethod();
 
         var husband = new Husband();
-        Husband.Wife wife;
-        wife = husband.new Wife();
+        Husband.Wife wife = husband.new Wife();
     }
 }
