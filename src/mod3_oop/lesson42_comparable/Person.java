@@ -6,9 +6,12 @@ public class Person {
 
     private static final String KIND = "HUMAN";
 
-    public static String getKIND() { return KIND; }
+    public static String getKIND() {
+        return KIND;
+    }
 
-    public Person() {}
+    public Person() {
+    }
 
     public Person(String name) {
         this();
