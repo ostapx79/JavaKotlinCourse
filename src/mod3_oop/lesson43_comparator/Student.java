@@ -1,7 +1,6 @@
 package mod3_oop.lesson43_comparator;
 
 import org.jetbrains.annotations.NotNull;
-import java.util.Comparator;
 
 public class Student extends Person implements Comparable<Student> { // , Comparator<Student> {
 
