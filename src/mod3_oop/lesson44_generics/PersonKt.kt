@@ -20,7 +20,8 @@ data class PersonKt<T>(
     }
 
     var birth: Date = Date()
-        get() = SimpleDateFormat("yyyy.MM.dd").parse(SimpleDateFormat("yyyy.MM.dd").format(field))
+        get() = SimpleDateFormat("yyyy.MM.dd")
+            .parse(SimpleDateFormat("yyyy.MM.dd").format(field))
         set(value) {
             field = value
         }
