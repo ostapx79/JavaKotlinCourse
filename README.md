@@ -50,3 +50,4 @@
 ### 43 Comparator-interface [Java Kotlin с нуля]
 ### 44 Generics [Java Kotlin с нуля]
 ### 45 Extensions [Java Kotlin с нуля]
+### 46 Reflection [Java Kotlin с нуля]
