@@ -1,4 +1,4 @@
-package mod3_oop.lesson45_reflection;
+package mod3_oop.lesson46_reflection;
 
 import mod3_oop.lesson35_abstract.Person;
 

@@ -1,4 +1,4 @@
-package mod3_oop.lesson45_reflection;
+package mod3_oop.lesson46_reflection;
 
 import java.lang.reflect.*;
 
@@ -12,7 +12,7 @@ public class OOPDemo {
         Class<? extends Student> studentClass = studentKostya.getClass();
         Class<?> studentClass1 = Student.class;
 
-        Class<?> studentClass2 = Class.forName("mod3_oop.lesson45_reflection.Student");
+        Class<?> studentClass2 = Class.forName("mod3_oop.lesson46_reflection.Student");
 
         System.out.println(studentClass1.getName());
 
@@ -45,7 +45,7 @@ public class OOPDemo {
         }
 
         // example
-        Class.forName("mod3_oop.lesson45_reflection.Student")
+        Class.forName("mod3_oop.lesson46_reflection.Student")
                 .getMethod("sayHello")
                 .invoke(studentKostya);
     }

@@ -51,3 +51,4 @@
 ### 44 Generics [Java Kotlin с нуля]
 ### 45 Extensions [Java Kotlin с нуля]
 ### 46 Reflection [Java Kotlin с нуля]
+### 47 try-catch [Java Kotlin с нуля]
