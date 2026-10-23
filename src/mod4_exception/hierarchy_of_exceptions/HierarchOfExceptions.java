@@ -17,9 +17,7 @@ public class HierarchOfExceptions {
             System.out.println("The str is null." + e);
         } catch (NumberFormatException e) {
             System.out.println(e);
-        } catch (Throwable e) {
-           
-        } finally {
+        }finally {
             System.out.println("The end of try-catch block");
         }
 
