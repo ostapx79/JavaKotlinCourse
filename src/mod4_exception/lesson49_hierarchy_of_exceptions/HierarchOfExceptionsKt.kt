@@ -1,4 +1,4 @@
-package mod4_exception.hierarchy_of_exceptions
+package mod4_exception.lesson49_hierarchy_of_exceptions
 
 fun main() {
     val zero = 1;
