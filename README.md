@@ -55,3 +55,4 @@
 ## Module Exception in Java/Kotlin
 ### 47 try-catch [Java Kotlin с нуля]
 ### 48 main_exceptions [Java Kotlin с нуля]
+### 49 hierarchy of exceptions [Java Kotlin с нуля]
