@@ -57,3 +57,4 @@
 ### 48 main_exceptions [Java Kotlin с нуля]
 ### 49 hierarchy of exceptions [Java Kotlin с нуля]
 ### 50 runCatching-method [Java Kotlin с нуля]
+### 51 custom exceptions [Java Kotlin с нуля]
