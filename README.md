@@ -52,12 +52,12 @@
 ### 45 Extensions [Java Kotlin с нуля]
 ### 46 Reflection [Java Kotlin с нуля]
 
-## Module Exception in Java/Kotlin
+## Module 4-Exception in Java/Kotlin
 ### 47 try-catch [Java Kotlin с нуля]
 ### 48 main_exceptions [Java Kotlin с нуля]
 ### 49 hierarchy of exceptions [Java Kotlin с нуля]
 ### 50 runCatching-method [Java Kotlin с нуля]
 ### 51 custom exceptions [Java Kotlin с нуля]
 
-## Module 4-Collections in Java/Kotlin
+## Module 5-Collections in Java/Kotlin
 ### 52 list [Java Kotlin с нуля]
