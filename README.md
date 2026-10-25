@@ -58,3 +58,6 @@
 ### 49 hierarchy of exceptions [Java Kotlin с нуля]
 ### 50 runCatching-method [Java Kotlin с нуля]
 ### 51 custom exceptions [Java Kotlin с нуля]
+
+## Module 4-Collections in Java/Kotlin
+### 52 list [Java Kotlin с нуля]
