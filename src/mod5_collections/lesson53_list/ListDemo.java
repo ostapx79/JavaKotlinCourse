@@ -1,4 +1,4 @@
-package mod5_collections.list;
+package mod5_collections.lesson53_list;
 
 import java.util.ArrayList;
 import java.util.List;

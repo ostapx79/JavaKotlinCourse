@@ -1,4 +1,4 @@
-package mod5_collections.linkedList;
+package mod5_collections.lesson52_linkedList;
 
 import java.util.LinkedList;
 import java.util.List;
