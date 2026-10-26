@@ -21,5 +21,9 @@ public class SetDemo {
         sortedSetOfNames.addAll(setOfNames);
         sortedSetOfNames.add("Anna");
         System.out.println("sorted set of names: " + sortedSetOfNames);
+
+        Set<String> linkedSet = new LinkedHashSet<>();
+        linkedSet.addAll(sortedSetOfNames);
+        System.out.println("linked set of names: " + linkedSet);
     }
 }
