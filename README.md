@@ -62,3 +62,4 @@
 ## Module 5-Collections in Java/Kotlin
 ### 52 list [Java Kotlin с нуля]
 ### 53 linkedList [Java Kotlin с нуля]
+### 54 set [Java Kotlin с нуля]
