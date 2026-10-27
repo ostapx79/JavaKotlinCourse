@@ -27,7 +27,7 @@ public class MapDemo {
 
         Map<String, Integer> mapLinked = new LinkedHashMap<>();
         mapLinked.putAll(mapOfPeople);
-        
+
 
         Map<String, Integer> sortedMapOfNames = new TreeMap<>();
         sortedMapOfNames.putAll(mapOfPeople);

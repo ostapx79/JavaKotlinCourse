@@ -15,4 +15,13 @@ fun main() {
     mapOfPeople.forEach { entry ->
         println("${entry.key} = ${entry.value}")
     }
+
+    val linkedMap = linkedMapOf<String, Int>()
+    linkedMap.putAll(mapOfPeople)
+    println("linkedMap: $linkedMap")
+
+    val sortedMap = sortedMapOf<String, Int>()
+    sortedMap.putAll(mapOfPeople)
+    println("sortedMap: $sortedMap")
+
 }
