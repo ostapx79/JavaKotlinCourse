@@ -68,3 +68,4 @@
 
 ## Module 6-Stream in Java/Kotlin
 ### 57 create a stream [Java Kotlin с нуля]
+### 58 stream function [Java Kotlin с нуля]
