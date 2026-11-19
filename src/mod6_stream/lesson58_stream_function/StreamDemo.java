@@ -6,7 +6,7 @@ import java.util.List;
 public class StreamDemo {
     public static void main(String[] args) {
 
-        List<Student> students = new ArrayList<Student>();
+        List<Student> students = new ArrayList<>();
 
         students.add(new Student("Alice", 20, 3));
         students.add(new Student("Bob", 22, 4));
@@ -53,7 +53,7 @@ public class StreamDemo {
                 .toList();
         System.out.println(sortedByName);
 
-        // Отсортируйте по именам
+        // Отсортируйте по годам
         List<Student> sortedByAge = students.stream()
                 .sorted((student1, student2) -> student1.getAge().compareTo(student2.getAge()))
                 .toList();
